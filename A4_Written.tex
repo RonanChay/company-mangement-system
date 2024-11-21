@@ -1,0 +1,102 @@
+\documentclass[12pt]{article} \pagestyle{plain}
+\usepackage{amssymb,amsthm,latexsym}
+\usepackage{times}
+\usepackage[reqno]{amsmath}
+\usepackage[mathscr]{eucal}
+\usepackage{setspace}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{pifont}
+\usepackage{calc}
+\usepackage{epsfig}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{tcolorbox}
+\geometry{margin=1in}
+
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+
+\lstset{
+    frame=single,
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{codegreen},
+    commentstyle=\color{codegray},
+    stringstyle=\color{codepurple},
+    showstringspaces=false,
+    breaklines=true
+}
+
+\title{\vspace{-25mm}CIS*3530 Data Base Systems and Concepts  \\ Assignment 4 }
+\date{}
+
+
+\begin{document}
+\maketitle
+
+\vspace{-20mm}
+\begin{center}
+{\bf Dr. Charlie Obimbo \hfill Due: Saturday, November 23th 11:59 pm}
+\end{center}
+
+\noindent
+{\bf Name: Karl Butler, Tia Yun Fat Jeffrey Ronan Chay Loong, Mansoor Syed } 
+
+\
+
+\hrule
+
+\bigskip
+\noindent
+{\bf Each Mark in Questions 1 -- 2 is worth 0.5 marks of the assignment}
+
+\medskip
+
+ \noindent
+  {\bf Question 1} \hfill (2 marks)
+
+\vspace{4mm}
+
+  Mark {\bf True} or {\bf False} for each of the following.
+
+  \begin{enumerate}
+    \item $\{ X \rightarrow  Y, YW \rightarrow  Z \} \Rightarrow \{ X \rightarrow Z \}$ \hspace{50mm}  {\bf False}
+
+    \item $\{W \rightarrow Y, X \rightarrow  Z \} \Rightarrow \{ WX \rightarrow Y \}$ \hspace{49mm}  {\bf True}
+
+    \item $\{X \rightarrow  Y, X \rightarrow   W, WY \rightarrow  Z \} \Rightarrow \{ X \rightarrow  Z \}$ \hspace{35mm}  {\bf True}
+
+    \item $\{X \rightarrow  Y, Y \rightarrow   W, W \rightarrow  Z \} \Rightarrow \{ X \rightarrow  Z \}$ \hspace{39mm}  {\bf True}
+
+  \end{enumerate}
+\medskip
+
+ \noindent
+  {\bf Question 2}
+
+  \begin{enumerate}
+    \item \begin{enumerate} \item  Describe MAC, DAC and Role-Based Access Control. \hfill (2 Marks)
+
+    \textcolor{blue}{MAC : Is a role-based security such that people can only access information at or below their own clearance. A centralized policy determines the clearance.}\\ \\
+     
+     \textcolor{blue}{DAC Discretionary Access Control:A security model where the owner or creator of a resource has the authority to determine who can access it and what permissions they have.}\\ \\
+
+     \textcolor{blue}{Role-Based Access Control: A security system where specific permissions are assigned to roles, and users are grouped into those roles to determine their access.} \\   
+
+   \item In what way is Role-Based Access Control superior to MAC and DAC.
+   
+        \hfill (2 Marks)
+
+    \textcolor{blue}{Role-Based Access Control (RBAC) is considered superior to MAC and DAC because it strikes a balance between security and flexibility. While DAC is highly flexible, it can lead to security vulnerabilities if resource owners are not careful. On the other hand, MAC is very secure but overly rigid, as a centralized policy dictates all access permissions and is on a person-by-person basis. RBAC bridges the gap by restricting access based on roles assigned to groups rather than on a person-to-person basis, offering both structured security and adaptability.}
+
+\end{enumerate}
+
+
+ \end{enumerate}
+ 
+ \end{document}

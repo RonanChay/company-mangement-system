@@ -1,0 +1,12 @@
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.gz
+*.zip
+flask_zero
+simple_flask2
+A4_Written.pdf
+
+.DS_Store
